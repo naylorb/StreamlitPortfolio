@@ -87,7 +87,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/dc666525d097b4232f947f1cc8695e15" method="POST">
+    <form action="https://formsubmit.co/dc666525d097b4232f947f1cc8695e15"  enctype="multipart/form-data" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
