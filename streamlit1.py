@@ -24,7 +24,8 @@ with open(CSS1) as stylesheet:
     st.markdown(f"<style>{stylesheet.read()}</style>", unsafe_allow_html=True)
 
 with st.container():
-    st.title(f"Hello, I'm Brad Naylor 👋", anchor=False)
+    st.title(f"Hello, I'm Brad Naylor ", anchor=False) 
+    st.markdown(f"<span class='wave'>👋</span>")
     st.header(f"I'm a Senior at UNCW - majoring in Information Technology with a concentration in Cybersecurity", anchor=False)
     st.write(
         "I'm passionate about Linux, Networking, Cybersecurity and Python Scripting. I'm interested in using scripts to automate tasks to be more efficient and effective in business settings."
