@@ -113,3 +113,17 @@ st.markdown("""
     .css-jn99sy {display: none}
     </style>
     """, unsafe_allow_html=True)
+#hide top margin
+st.markdown(
+        """
+            <style>
+                .appview-container .main .block-container {{
+                    padding-top: {padding_top}rem;
+                    padding-bottom: {padding_bottom}rem;
+                    }}
+
+            </style>""".format(
+            padding_top=1, padding_bottom=1
+        ),
+        unsafe_allow_html=True,
+    )
