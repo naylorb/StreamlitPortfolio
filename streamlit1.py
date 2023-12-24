@@ -8,7 +8,7 @@ import streamlit_extras
 from PIL import Image
 
 
-st.set_page_config(page_title="Brad Naylor - Portfolio", layout="wide")
+st.set_page_config(page_title="Brad Naylor - Portfolio")
 DIR1 = Path(__file__).parent
 CSS1 = DIR1 / "style" / "style.css"
 ASST = DIR1 / "assets"
