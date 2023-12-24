@@ -14,7 +14,7 @@ CSS1 = DIR1 / "style" / "style.css"
 ASST = DIR1 / "assets"
 COOLNESS = ASST / "load.json"
 COOLNESS1 = ASST / "hello.json"
-
+wave = "<span class='wave'>👋</span>"
 
 def load_coolness(file_path):
     with open(file_path, "r") as f:
@@ -25,7 +25,7 @@ with open(CSS1) as stylesheet:
 
 with st.container():
     st.title(f"Hello, I'm Brad Naylor ", anchor=False) 
-    st.markdown(f"<span class='wave'>👋</span>")
+    st.markdown(f"{wave}", unsafe_allow_html=True)
     st.header(f"I'm a Senior at UNCW - majoring in Information Technology with a concentration in Cybersecurity", anchor=False)
     st.write(
         "I'm passionate about Linux, Networking, Cybersecurity and Python Scripting. I'm interested in using scripts to automate tasks to be more efficient and effective in business settings."
