@@ -29,7 +29,7 @@ with st.container():
     st.write(
         "I'm passionate about Linux, Networking, Cybersecurity and Python Scripting. I'm interested in using scripts to automate tasks to be more efficient and effective in business settings."
     )
-    content1 = """<form action="https://linkedin.com/in/brad-naylor"><button type="submit">Visit My LinkedIn</button></form>"""
+    content1 = """<form action="https://linkedin.com/in/brad-naylor" target="_blank"><button type="submit">Visit My LinkedIn</button></form>"""
     st.markdown(content1, unsafe_allow_html=True)
     st.write("---")
     
