@@ -14,7 +14,7 @@ CSS1 = DIR1 / "style" / "style.css"
 ASST = DIR1 / "assets"
 COOLNESS = ASST / "load.json"
 COOLNESS1 = ASST / "hello.json"
-forminfo = "https://formsubmit.co/naylorbmn@gmail.com"
+forminfo = "naylorbmn@gmail.com"
 
 def load_coolness(file_path):
     with open(file_path, "r") as f:
@@ -88,7 +88,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = f"""
-    <form action={forminfo} method="POST">
+    <form action="https://formsubmit.co/{forminfo}" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
