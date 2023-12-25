@@ -45,7 +45,7 @@ with st.container():
         st.write(
             """
             Python IP Range + Mac Address Netscanning tool,
-             complete with GUI and 4 different scanning methods including ARP, ICMP, TCP, and UDP. Built using Scapy library as well as 
+             complete with GUI and 4 different scanning methods including ARP, ICMP, TCP, and UDP. Built using Scapy and Tkinter. 
             """
         )
         st.write("[View on Github](https://linkedin.com/in/brad-naylor)")
